@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react"
 import { View, ScrollView, Text, Modal, TextInput } from "react-native"
-import Auth from "../components/Auth"
-import { globalStyles } from "../styles/global"
+import Auth from "../components/Auth.jsx"
+import { globalStyles } from "../styles/default"
 import chat from "../helpers/chat"
-import Chat from "../components/Chat"
-import Button from "../components/Button"
-import Conversation from "../components/Conversation"
+import Chat from "../components/Chat.jsx"
+import Button from "../components/Button.jsx"
+import Conversation from "../components/Conversation.jsx"
 
 const Chats = props => {
   const [chats, setChats] = useState([])

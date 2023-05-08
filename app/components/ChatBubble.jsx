@@ -9,7 +9,7 @@ import {
 } from "react-native"
 import chat from "../helpers/chat"
 import user from "../helpers/user"
-import { globalStyles } from "../styles/global"
+import { globalStyles } from "../styles/default"
 import Icon from "react-native-vector-icons/Ionicons"
 import Button from "./Button"
 

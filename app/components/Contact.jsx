@@ -4,7 +4,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import chat, { ChatResponse } from "../helpers/chat";
 import contact, { ContactResponse } from "../helpers/contact";
 import user from "../helpers/user";
-import { globalStyles } from "../styles/global";
+import { globalStyles } from "../styles/default";
 
 const Contact = (props) => {
     const [loading, setLoading] = useState(false);

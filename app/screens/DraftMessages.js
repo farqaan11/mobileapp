@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
 import { View, ScrollView, Text } from "react-native"
-import Auth from "../components/Auth"
-import Draft from "../components/Draft"
+import Auth from "../components/Auth.jsx"
+import Draft from "../components/Draft.jsx"
 import draft from "../helpers/drafts"
-import { globalStyles } from "../styles/global"
+import { globalStyles } from "../styles/default"
 
 const Drafts = props => {
   const [drafts, setDrafts] = useState([])

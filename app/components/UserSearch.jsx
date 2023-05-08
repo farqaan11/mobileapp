@@ -3,7 +3,7 @@ import { View, Image, ActivityIndicator, Text } from "react-native"
 import Icon from "react-native-vector-icons/Ionicons"
 import contact from "../helpers/contact"
 import user from "../helpers/user"
-import { globalStyles } from "../styles/global"
+import { globalStyles } from "../styles/default"
 
 const UserSearch = props => {
   const [loading, setLoading] = useState(false)

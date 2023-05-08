@@ -1,6 +1,6 @@
 import { TouchableOpacity, View, Text, Button } from "react-native"
 import drafts from "../helpers/drafts"
-import { globalStyles } from "../styles/global"
+import { globalStyles } from "../styles/default"
 import Icon from "react-native-vector-icons/Ionicons"
 import { useState } from "react"
 import { TextInput } from "react-native"

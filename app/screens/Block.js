@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react"
 import { View, ScrollView, Text } from "react-native"
-import Auth from "../components/Auth"
-import Contact from "../components/Contact"
+import Auth from "../components/Auth.jsx"
+import Contact from "../components/Contact.jsx"
 import contact from "../helpers/contact"
-import { globalStyles } from "../styles/global"
+import { globalStyles } from "../styles/default"
 
 const Blocked = props => {
   const [blockedContacts, setBlockedContacts] = useState([])

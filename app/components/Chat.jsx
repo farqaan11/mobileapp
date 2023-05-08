@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { TouchableOpacity, View, Image, Text, ActivityIndicator } from "react-native";
 import { ChatResponse } from "../helpers/chat";
 import user from "../helpers/user";
-import { globalStyles } from "../styles/global";
+import { globalStyles } from "../styles/default";
 
 const Chat = (props) => {
     const [loading, setLoading] = useState(false);

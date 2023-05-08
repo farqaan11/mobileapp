@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, TouchableOpacity } from 'react-native';
-import { globalStyles } from '../styles/global';
+import { globalStyles } from '../styles/default';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 const Button = (props) => {

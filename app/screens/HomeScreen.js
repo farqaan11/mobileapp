@@ -1,6 +1,6 @@
 import { View } from "react-native"
-import Auth from "../components/Auth"
-import { globalStyles } from "../styles/global"
+import Auth from "../components/Auth.jsx"
+import { globalStyles } from "../styles/default"
 
 const Home = props => {
   return (

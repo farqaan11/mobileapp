@@ -1,8 +1,7 @@
-
 import { NavigationContainer } from "@react-navigation/native"
-import { UserContextProvider } from "./context/UserContext"
+import { UserContextProvider } from "./context/UserCont.js"
 import drafts from "./helpers/drafts"
-import Tabs from "./app/navi/TabNav"
+import Tabs from "./app/navi/TabNav.jsx"
 
 const App = () => {
   let date = new Date()

@@ -7,11 +7,11 @@ import {
   ScrollView,
   Switch
 } from "react-native"
-import Auth from "../components/Auth"
-import UserSearch from "../components/UserSearch"
+import Auth from "../components/Auth.jsx"
+import UserSearch from "../components/UserSearch.jsx"
 import contact from "../helpers/contact"
 import user from "../helpers/user"
-import { globalStyles } from "../styles/global"
+import { globalStyles } from "../styles/default"
 
 const Search = props => {
   const [searchTerm, setSearchTerm] = useState("")
