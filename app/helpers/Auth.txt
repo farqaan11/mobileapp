@@ -1,0 +1,1 @@
+this is the original auth file that was used as helper but is now merged into the components
